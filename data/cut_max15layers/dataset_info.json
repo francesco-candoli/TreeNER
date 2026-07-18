@@ -1,0 +1,73 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "pile-ner-biomed24-iob",
+  "dataset_size": 3439721,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/disi-unibo-nlp/Pile-NER-biomed24-IOB@146a38d30b38c5206c6db73e0ccec886233bba8d/data/train-00000-of-00001.parquet": {
+      "num_bytes": 854468,
+      "checksum": null
+    }
+  },
+  "download_size": 854468,
+  "features": {
+    "tokens": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "entities": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "ent_idx": {
+      "feature": {
+        "label": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "start": {
+          "dtype": "int32",
+          "_type": "Value"
+        },
+        "end": {
+          "dtype": "int32",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "tree": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "grammar": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 4294189,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3439721,
+      "num_examples": 7327,
+      "dataset_name": "pile-ner-biomed24-iob"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
