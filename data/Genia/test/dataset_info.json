@@ -1,0 +1,86 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "genia",
+  "dataset_size": 14094505,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/Aunderline/genia@d71cefadbbee8cdb4a2b09e9783de79ba3da242b/train.json": {
+      "num_bytes": 33060351,
+      "checksum": null
+    },
+    "hf://datasets/Aunderline/genia@d71cefadbbee8cdb4a2b09e9783de79ba3da242b/dev.json": {
+      "num_bytes": 3320857,
+      "checksum": null
+    },
+    "hf://datasets/Aunderline/genia@d71cefadbbee8cdb4a2b09e9783de79ba3da242b/test.json": {
+      "num_bytes": 3910368,
+      "checksum": null
+    }
+  },
+  "download_size": 40291576,
+  "features": {
+    "tokens": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "entities": {
+      "feature": {
+        "start": {
+          "dtype": "int32",
+          "_type": "Value"
+        },
+        "end": {
+          "dtype": "int32",
+          "_type": "Value"
+        },
+        "type": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "tree": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "n_dropped": {
+      "dtype": "int32",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 54386081,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 11465066,
+      "num_examples": 15023,
+      "dataset_name": "genia"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 1208475,
+      "num_examples": 1669,
+      "dataset_name": "genia"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 1420964,
+      "num_examples": 1854,
+      "dataset_name": "genia"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
