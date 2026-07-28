@@ -2,19 +2,19 @@
   "builder_name": "json",
   "citation": "",
   "config_name": "default",
-  "dataset_name": "genia",
+  "dataset_name": "json",
   "dataset_size": 14094505,
   "description": "",
   "download_checksums": {
-    "hf://datasets/Aunderline/genia@d71cefadbbee8cdb4a2b09e9783de79ba3da242b/train.json": {
+    "hf://datasets/Aunderline/genia/train.json": {
       "num_bytes": 33060351,
       "checksum": null
     },
-    "hf://datasets/Aunderline/genia@d71cefadbbee8cdb4a2b09e9783de79ba3da242b/dev.json": {
+    "hf://datasets/Aunderline/genia/dev.json": {
       "num_bytes": 3320857,
       "checksum": null
     },
-    "hf://datasets/Aunderline/genia@d71cefadbbee8cdb4a2b09e9783de79ba3da242b/test.json": {
+    "hf://datasets/Aunderline/genia/test.json": {
       "num_bytes": 3910368,
       "checksum": null
     }
@@ -62,19 +62,19 @@
       "name": "train",
       "num_bytes": 11465066,
       "num_examples": 15023,
-      "dataset_name": "genia"
+      "dataset_name": "json"
     },
     "validation": {
       "name": "validation",
       "num_bytes": 1208475,
       "num_examples": 1669,
-      "dataset_name": "genia"
+      "dataset_name": "json"
     },
     "test": {
       "name": "test",
       "num_bytes": 1420964,
       "num_examples": 1854,
-      "dataset_name": "genia"
+      "dataset_name": "json"
     }
   },
   "version": {
